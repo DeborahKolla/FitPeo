@@ -7,8 +7,11 @@ The automation script performs the following actions:
 
 1. Navigate to the FitPeo Homepage and access the Revenue Calculator Page.
 2. Scroll to the slider section and adjust its value to 820, ensuring the corresponding text field updates dynamically.
+
 3.Update the text field with a value of 560 and validate that the slider reflects the updated value.
+
 4.Select CPT codes (CPT-99091, CPT-99453, CPT-99454, CPT-99474) and verify checkbox functionality.
+
 5.Validate that the header displaying the Total Recurring Reimbursement value updates correctly to $110700.
 
 # Features
