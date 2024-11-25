@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuit]" guice-stage="DEVELOPMENT" allow-return-values="true" verbose="100">
+  <test thread-count="5" name="fitPeo(failed)" verbose="100">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCase.HomePageTestCase">
+        <methods>
+          <include name="quit"/>
+          <include name="launchBrowser"/>
+          <include name="validateRecurringAmount"/>
+        </methods>
+      </class> <!-- testCase.HomePageTestCase -->
+    </classes>
+  </test> <!-- fitPeo(failed) -->
+</suite> <!-- Failed suite [TestSuit] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T22:29:48 IST" name="TestSuit" finished-at="2024-11-25T22:33:16 IST" duration-ms="207619">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T22:29:48 IST" name="fitPeo" finished-at="2024-11-25T22:33:16 IST" duration-ms="207619">
+      <class name="testCase.HomePageTestCase">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCase.HomePageTestCase@6580cfdd]" started-at="2024-11-25T22:29:48 IST" name="launchBrowser" finished-at="2024-11-25T22:30:03 IST" duration-ms="14405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateTextToSlider()[pri:1, instance:testCase.HomePageTestCase@6580cfdd]" started-at="2024-11-25T22:30:03 IST" name="validateTextToSlider" finished-at="2024-11-25T22:31:33 IST" duration-ms="89604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextToSlider -->
+        <test-method signature="validateRecurringAmount()[pri:2, instance:testCase.HomePageTestCase@6580cfdd]" started-at="2024-11-25T22:31:33 IST" name="validateRecurringAmount" finished-at="2024-11-25T22:33:15 IST" duration-ms="102856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecurringAmount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCase.HomePageTestCase@6580cfdd]" started-at="2024-11-25T22:33:15 IST" name="quit" finished-at="2024-11-25T22:33:16 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCase.HomePageTestCase -->
+    </test> <!-- fitPeo -->
+  </suite> <!-- TestSuit -->
+</testng-results>
